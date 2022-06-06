@@ -52,6 +52,6 @@ Methane_Graph <-ggplot(Methane02, aes(x=substrate, y=Mean, fill=substrate)) +
   theme(legend.position = c(.2,.6))
 
 #GGSave
-ggsave(file="Methane_vs_Substrate.png", plot=Methane_Graph, width=8, height=5.3)
+ggsave(file="Methane_vs_SubstrateRecolord-06062022.pdf", width=8, height=4.72)
 
 
