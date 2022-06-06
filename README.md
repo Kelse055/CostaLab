@@ -13,5 +13,9 @@ SpeciesVsSubstrateRecolored-06012022.R
 # Syntrophy Plots - Save Code for Resized PDF
 
 SpeciesVsSubstrateRecolored-06062022.pdf
+## R File Code for Recolored and sized Pilobacter vs Methanococcus Cell Counts
+SpeciesVsSubstrateRecolored-06012022.R
 
 MethaneVsSubstrateRecolored-06062022.pdf
+## R File Code for Recolored and sized PDF Methane vs Substrate 
+MethaneVsSubstrateRecolored-06012022.R
