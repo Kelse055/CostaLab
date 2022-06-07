@@ -21,8 +21,8 @@ MethaneVsSubstrateRecolored-06062022.pdf
 MethaneVsSubstrateRecolored-06012022.R
 
 ## Methane vs Substrate 4x3
-<object data="" width="400px" height="300px">
-    <embed src="">
+<object data="Species_vs_SubstrateRecoloredPerPop-06072022.pdf" width="400px" height="300px">
+    <embed src="Species_vs_SubstrateRecoloredPerPop-06072022.pdf">
      
     </embed>
 </object>
