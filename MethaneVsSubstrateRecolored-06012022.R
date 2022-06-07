@@ -26,7 +26,7 @@ Methane02$substrate <- factor(Methane02$substrate, levels = c("EtOHN2", "EtOH", 
 #GGPlot of Data
 
 ggplot(Methane02, aes(x=substrate, y=Mean, fill=substrate)) +
-  geom_bar(stat="identity", color="black") +
+  geom_bar(stat="identity", color="black", show.legend = FALSE) +
   geom_errorbar(aes(ymin =(Mean-Std), ymax = (Mean + Std)), color="black", width=0.2) +
   theme_classic(base_size = 11) +
   labs(
@@ -35,23 +35,12 @@ ggplot(Methane02, aes(x=substrate, y=Mean, fill=substrate)) +
                     labels = c(EtOHN2_legend, EtOH_legend,PD_legend),
                     values = c(EtOHN2_color, EtOH_color, PD_color)) +
   scale_x_discrete(labels=c("EtOHN2" = "Ethanolamine", "EtOH" = "Ethanol", "13PD" = "1,3 Propanediol")) +
-  theme(legend.position = c(.2,.6), text = element_text(size = 15))
+  theme(text = element_text(size = 15))
 
 
 #Rename To Save
-Methane_Graph <-ggplot(Methane02, aes(x=substrate, y=Mean, fill=substrate)) +
-  geom_bar(stat="identity", color="black") +
-  geom_errorbar(aes(ymin =(Mean-Std), ymax = (Mean + Std)), color="black", width=0.2) +
-  theme_classic(base_size = 11) +
-  labs(title="Mean Methane Presence Normalized by Optical Density by Substrate Type",
-       x="Substrate", y = "\U03BCmol Methane per OD") +
-  scale_fill_manual(name = "Substrate",
-                    labels = c(EtOHN2_legend, EtOH_legend,PD_legend),
-                    values = c(EtOHN2_color, EtOH_color, PD_color)) +
-  scale_x_discrete(labels=c("EtOHN2" = "Ethanolamine", "EtOH" = "Ethanol", "13PD" = "1,3 Propanediol")) +
-  theme(legend.position = c(.2,.6))
 
 #GGSave
-ggsave(file="Methane_vs_SubstrateRecolord-06062022.pdf", width=8, height=4.72)
+ggsave(file="Methane_vs_SubstrateRecolord-06072022.pdf", width=4, height=3)
 
 

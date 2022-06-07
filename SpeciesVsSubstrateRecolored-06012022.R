@@ -28,7 +28,7 @@ ggplot(Species01, aes(x=substrate, y=Mean, fill=species)) +
                                                                 ymax = (Mean + Std)), color="black", width=0.2) +
   scale_y_continuous(labels = function(x) paste0(x*100, "%")) +
   theme_classic(base_size = 11) +
-  labs(x="Substrate", y = "Proportion") +
+  labs(x="Substrate", y = "% of Population") +
   scale_fill_manual(name = "Species",
                     labels = c(Mmari_legend, PCarb_legend),
                     values = c(Mmari_color, Pcarb_color),
@@ -37,20 +37,9 @@ ggplot(Species01, aes(x=substrate, y=Mean, fill=species)) +
   theme(text = element_text(size = 15))
 
 #-------Name Graph to Save--------
-Species_Graph <-ggplot(Species01, aes(x=substrate, y=Mean, fill=species)) +
-  geom_bar(stat="identity", color="black", position=position_fill(reverse=TRUE)) +
-  geom_errorbar(data=filter(Species01, species == 'Mmari'), aes(ymin =(Mean-Std), 
-                                                                ymax = (Mean + Std)), color="black", width=0.2) +
-  scale_y_continuous(labels = function(x) paste0(x*100, "%")) +
-  theme_classic() +
-  labs(title="Species Proportion by Substrate",
-       x="Substrate", y = "Proportion") +
-  scale_fill_manual(name = "Species",
-                    labels = c(Mmari_legend, PCarb_legend),
-                    values = c(Mmari_color, Pcarb_color),
-                    guide = guide_legend(reverse = TRUE)) +
-  scale_x_discrete(labels=c("EtOHN2" = "Ethanolamine", "EtOH" = "Ethanol", "13PD" = "1,3 Propanediol")) +
-  theme(text = element_text(size = 15))
-
+Species_Graph <-
+  
+  
 #-------------GGSave-----------
-ggsave(file="Species_vs_SubstrateRecolored-06062022.pdf", plot=Species_Graph, width=8, height=4.72)
+ggsave(file="Species_vs_SubstrateRecoloredPerPop-06072022.pdf", width=4, height=3)
+
