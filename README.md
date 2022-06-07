@@ -21,7 +21,11 @@ MethaneVsSubstrateRecolored-06062022.pdf
 MethaneVsSubstrateRecolored-06012022.R
 
 ## Methane vs Substrate 4x3
-![image](https://user-images.githubusercontent.com/106693445/172429630-243a7be9-a7ec-44e9-9b80-2c8fb6609b59.png)
+<object data="" width="400px" height="300px">
+    <embed src="">
+     
+    </embed>
+</object>
 ### Methane Vs Substrate Code Resized 
 MethaneVsSubstrateRecolored-06012022.R
 
