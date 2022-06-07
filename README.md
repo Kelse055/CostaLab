@@ -22,7 +22,6 @@ MethaneVsSubstrateRecolored-06012022.R
 
 ## Methane vs Substrate 4x3
 <object data="https://github.com/Kelse055/CostaLab/blob/d7a01e84ed17946fcec358850d6e39aa45ecd9d3/Species_vs_SubstrateRecoloredPerPop-06072022.pdf" width="400px" height="300px">
-    <embed src="https://github.com/Kelse055/CostaLab/blob/d7a01e84ed17946fcec358850d6e39aa45ecd9d3/Species_vs_SubstrateRecoloredPerPop-06072022.pdf"> </embed>
 </object>
 
 ### Methane Vs Substrate Code Resized 
