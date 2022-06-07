@@ -19,3 +19,12 @@ SpeciesVsSubstrateRecolored-06012022.R
 MethaneVsSubstrateRecolored-06062022.pdf
 ## R File Code for Recolored and sized PDF Methane vs Substrate 
 MethaneVsSubstrateRecolored-06012022.R
+
+## Methane vs Substrate 4x3
+![image](https://user-images.githubusercontent.com/106693445/172429630-243a7be9-a7ec-44e9-9b80-2c8fb6609b59.png)
+### Methane Vs Substrate Code Resized 
+MethaneVsSubstrateRecolored-06012022.R
+
+## Species vs Substrate 4x3
+![image](https://user-images.githubusercontent.com/106693445/172431185-010dce6c-95bc-4920-a3ea-ad18593b2294.png)
+SpeciesVsSubstrateRecolored-06012022.R
